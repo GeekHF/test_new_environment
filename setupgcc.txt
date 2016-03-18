@@ -1,0 +1,12 @@
+To set up gcc and call gcc instead of gcc-*.* something
+
+just link the cc gcc c++ and g++ to the gcc-version
+
+take gcc-4.8 as example
+
+cd /usr/bin
+rm cc gcc c++ g++
+ln -s /usr/local/bin/gcc-4.8 cc
+ln -s /usr/local/bin/gcc-4.8 gcc
+ln -s /usr/local/bin/c++-4.8 c++
+ln -s /usr/local/bin/g++-4.8 g++
