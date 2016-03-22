@@ -12,7 +12,7 @@ int main()
     fftw_complex *in,*out;
     fftw_plan p;
     in = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * N);
-    out = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * N);
+    out = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * M);
     
     if((in==NULL)||(out==NULL))
     {
