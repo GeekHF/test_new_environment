@@ -1,0 +1,12 @@
+set up anaconda
+
+homebrew would help to install anaconda
+
+however, still need to add the following lines to ~/.bash--something (eg. ~/.bash_profile);
+
+# added by Anaconda 2.0.0 installer # could be some other version
+export PATH="/Users/username/anaconda/bin:$PATH"
+alias pythonA='/Users/username/anaconda/bin/python'
+alias conda='/Users/username/anaconda/bin/conda'
+alias spyder='/Users/username/anaconda/bin/spyder'
+alias pynote='/Users/username/anaconda/bin/ipython_mac.command ; exit;'
