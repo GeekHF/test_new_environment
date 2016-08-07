@@ -10,3 +10,15 @@ ln -s /usr/local/bin/gcc-4.8 cc
 ln -s /usr/local/bin/gcc-4.8 gcc
 ln -s /usr/local/bin/c++-4.8 c++
 ln -s /usr/local/bin/g++-4.8 g++
+
+c include
+$ C_INCLUDE_PATH=/opt/gdbm-1.8.3/include 
+$ export C_INCLUDE_PATH
+
+c++ include
+$ CPLUS_INCLUDE_PATH=/opt/gdbm-1.8.3/include 
+$ export CPLUS_INCLUDE_PATH
+
+lib
+$ LIBRARY_PATH=/opt/gdbm-1.8.3/lib
+$ export LIBRARY_PATH
